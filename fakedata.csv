@@ -1,0 +1,13 @@
+﻿column,type,options
+patientid,integer,
+site_name,categorical,"Sutter Health,University of Michigan,University of Minnesota,Baylor Scott and White Research Institute, Massachusetts General,Stanford,Weill Cornell,Loma Linda,Advanced Care Planning,Advanced Illness Management Service"
+response_date,date,
+flg_cirrhosis_abstinence,dummy,
+flg_hazardous_drinking_no_pro,dummy,
+flg_ais_control_pro,dummy,
+flg_cirrhosis_depression,dummy,
+flg_pro_eligible,dummy,
+race_cd,answervalue,"1,2,3"
+circum,categorical,"0,1+0,1+1,3+0,3+1,5+0,5+1"
+score,integer_range,"10,40"
+meld,float_range,"10,40"
